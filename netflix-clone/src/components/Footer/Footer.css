@@ -14,9 +14,11 @@
 
 .footer_icons {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 15px;
   margin-bottom: 15px;
+  margin-left: 16rem;
+  color: white;
 }
 
 .footer_data {
@@ -45,12 +47,13 @@
 }
 
 .service_code {
-  display: inline-block;
+  /* display: inline-block; */
   border: 1px solid #fff;
   padding: 5px 15px;
-  margin: 15px 0;
+  margin-left: 16rem;
   cursor: pointer;
   font-size: 14px;
+  width: 100px;
 }
 
 .copy_write {

@@ -2,6 +2,7 @@ import "./Footer.css";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import XIcon from "@mui/icons-material/X";
 
 const Footer = () => {
   return (
@@ -12,30 +13,39 @@ const Footer = () => {
           <FacebookOutlinedIcon />
           <InstagramIcon />
           <YouTubeIcon />
+          <XIcon />
         </div>
 
         {/* Footer Links */}
         <div className="footer_data">
-          <ul>
-            <li>Audio Description</li>
-            <li>Investor Relations</li>
-            <li>Legal Notice</li>
-          </ul>
-          <ul>
-            <li>Help Center</li>
-            <li>Jobs</li>
-            <li>Cookie Preferences</li>
-          </ul>
-          <ul>
-            <li>Gift Cards</li>
-            <li>Terms of Use</li>
-            <li>Corporate Information</li>
-          </ul>
-          <ul>
-            <li>Media Center</li>
-            <li>Privacy</li>
-            <li>Contact Us</li>
-          </ul>
+          <div>
+            <ul>
+              <li>Audio Description</li>
+              <li>Investor Relations</li>
+              <li>Legal Notice</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Help Center</li>
+              <li>Jobs</li>
+              <li>Cookie Preferences</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Gift Cards</li>
+              <li>Terms of Use</li>
+              <li>Corporate Information</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Media Center</li>
+              <li>Privacy</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
         </div>
 
         {/* Service Code Button */}
