@@ -25,6 +25,26 @@ const RowList = () => {
         fetch={requests.fetchActionMovies}
         isLarge={true}
       />
+      <Row
+        title="Comedy movies"
+        fetch={requests.fetchComedyMovies}
+        isLarge={true}
+      />
+      <Row
+        title="Horror movies"
+        fetch={requests.fetchHorrorMovies}
+        isLarge={true}
+      />
+      <Row
+        title="Romance movies"
+        fetch={requests.fetchRomanceMovies}
+        isLarge={true}
+      />
+      <Row
+        title="Documentaries movies"
+        fetch={requests.fetchDocumentaries}
+        isLarge={true}
+      />
     </>
   );
 };
